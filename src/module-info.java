@@ -2,7 +2,7 @@
  * 
  */
 /**
- * @author evie
+ * @author Evelyn Welch
  *
  */
 module ZipCodeQuerier {
