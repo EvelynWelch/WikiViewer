@@ -1,7 +1,7 @@
 # WikiViewer
 
 ## Synopsis
-Queries http://api.zippopotam.us/us/{ZIPCODE} for whatever zip code you enter, and caches the response.
+Queries zippopotam.us/ for whatever zip code you enter, and caches the response.
 
 ## How to Run
 To run the project execute ZipCodeQuerier.java and walk through the prompt.
