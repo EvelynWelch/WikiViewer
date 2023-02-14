@@ -15,6 +15,7 @@ class WebRequestTest {
 		// this test assumes they successfully got the data.
 		assertNotEquals(testRequest.getUrl(), null);
 		assertNotEquals(testRequest.getData(), null);
+		System.out.println(testRequest.getData());
 	}
 	@Test
 	void testUrlFactory() {
