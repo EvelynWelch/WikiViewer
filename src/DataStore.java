@@ -1,13 +1,7 @@
 import java.io.*;
 
-//interface CRUD {
-//	public boolean create(Object data);
-//	public Object read();
-//	public boolean update();
-//	public boolean delete();
-//}
 /**
- * Uses java.io.Serializable to create a basic CRUD data store.
+ * Uses java.io.Serializable to read and write objects to a file.
  */
 public class DataStore {
 	String dataFilePath;
