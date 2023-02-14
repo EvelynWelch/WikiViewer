@@ -48,6 +48,7 @@ public class DataStore {
 			FileInputStream dataFile = new FileInputStream(this.dataFilePath);
 			ObjectInputStream in = new ObjectInputStream(dataFile);
 			Object data = in.readObject();
+			in.close();
 			return data;
 
 		} catch (IOException e) {
