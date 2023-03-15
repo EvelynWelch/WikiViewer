@@ -62,14 +62,4 @@ public class DataStore {
 	public Object read() {
 		return readFromFile();
 	}
-
-	/** */
-	public boolean update() {
-		return true;
-	}
-
-	/** */
-	public boolean delete() {
-		return true;
-	}
 }
